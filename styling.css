@@ -20,7 +20,7 @@ body {
     align-items: center;
     margin-bottom: 2em;  
     /* padding: 5px; */
-    /* margin-top: .1em;  */
+    margin-top: 1em; 
 }
 
 .header-links {
@@ -29,7 +29,7 @@ body {
     padding-right: 15px;
     margin: 0;
     align-items: center;
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 .header-main {
@@ -44,7 +44,7 @@ body {
 }
 
 .primary-text {
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -52,7 +52,7 @@ body {
 }
 
 .secondary-text {
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #E5E7EB;
     max-width: 400px;
@@ -62,7 +62,7 @@ body {
 }
 
 .logo {
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
@@ -79,16 +79,13 @@ a {
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: #3882F6;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
     width: 7em;
     height: auto;
 }
-
-
-
 
 
 
@@ -113,6 +110,7 @@ button {
     color: #1F2937;
     font-weight: 900;
     margin: 1em;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 .info-main {
@@ -121,24 +119,22 @@ button {
     flex-wrap: wrap;
 }
 
-.img-list {
-    display: flex;
-}
-
-li {
+.section {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 250px;
     flex-wrap: wrap;
     justify-content: space-around;
+    /* align-items: center; */
     gap: .5em;
     margin: 2em;
-    font-size: 18px;
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
     border-radius: 25px;
+    border:2px solid #e90d2b
 }
 
 
@@ -158,7 +154,7 @@ img {
 }
 
 .quote-text {
-    font-family: roboto, Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, Futura, roboto, Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
